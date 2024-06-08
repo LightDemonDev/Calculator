@@ -493,7 +493,7 @@ function Finish() {
     Div.appendChild(BackButton);
 
     $(BackButton).on('click', () => {
-        window.location.href = "./index.html";
+        window.location.href = "./calculator.html";
     });
 
     $(CopyButton).on('click', () => {
